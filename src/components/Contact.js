@@ -1,4 +1,4 @@
-import "../Icons.css";
+import "../Styles/Icons.css";
 
 const Contact = () => {
   return (
@@ -12,10 +12,10 @@ const Contact = () => {
             <a href="https://github.com/R03ERT734" class="fa fa-lg fa-github"></a>
           </li>
           <li>
-            <a href="#" class="fa fa-lg fa-linkedin"></a>
+            <a href="https://google.com" class="fa fa-lg fa-linkedin"></a>
           </li>
           <li>
-            <a href="#" class="fa fa-lg fa-instagram"></a>
+            <a href="https://google.com" class="fa fa-lg fa-instagram"></a>
           </li>
         </ul>
       </div>

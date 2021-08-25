@@ -1,14 +1,11 @@
-import "../App.css"
+import "../Styles/App.css"
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
     <div className="header">
-      <a href="https://google.com" className="link">
-        Home
-      </a>
-      <a href="https://google.com" className="link">
-        About Me
-      </a>
+      <Link to="/">Home</Link>
+      <Link to="/about">About Me</Link>
       <a href="https://google.com" className="link">
         Projects
       </a>

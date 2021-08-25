@@ -1,4 +1,6 @@
-import "../App.css";
+import "../Styles/App.css";
+import "../Styles/Button.css";
+import { Link } from "react-router-dom";
 
 const AboutMe = () => {
   return (
@@ -18,6 +20,9 @@ const AboutMe = () => {
           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
           culpa qui officia deserunt mollit anim id est laborum.
         </p>
+        <div className="link-container">
+          <Link to="/about">About Me</Link>
+        </div>
       </div>
     </div>
   );

@@ -1,0 +1,10 @@
+.link-container {
+  display: flex;
+  width: 25%;
+  justify-content: center;
+  background-color: black;
+  text-decoration: none;
+}
+.link-container a {
+  color: white;
+}
